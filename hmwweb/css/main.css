@@ -1,0 +1,303 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: #f2f6e9;
+}
+
+/*--navigation bar--*/
+
+
+.navbar{
+    background: #000000;
+    
+}
+
+.nav-link,
+.navbar-brand{
+    cursor: pointer;
+}
+
+.nav-link{
+    margin-right: 1em !important;
+}
+
+.nav-link:hover{
+    color:#000;
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+.header{
+    background-image: url('../image/FB_September_2017-06.png');
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: overlay;
+    
+}
+
+.overlay{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0);
+
+}
+
+.description{
+
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%,-55%);
+    text-align: center;
+}
+
+.description h1{
+    
+    color: #000000;
+}
+
+.description p{
+    font-style: oblique;
+    color: rgb(7, 70, 1);
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+
+.description button{
+
+    border: 1px solid #050505;
+    background: transparent;
+    border-radius: 5;
+    color: rgb(0, 0, 0);
+    bottom: 40px;
+    
+  
+
+}
+
+.description button:hover{
+
+    border: 1px solid #fff;
+    background: transparent;
+    color: #000;
+
+}
+
+.features{
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+
+.feature-title{
+
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.features img{
+    -webkit-box-shadow: 1px 1px 4px rgba(0,0,0,4);
+    -moz-box-shadow: 1px 1px 4px rgba(0,0,0,4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 4);
+    margin-bottom: 16px;
+  
+}
+
+.features.form-control,
+.features input{
+     margin-right: 20px;
+     border-radius: 10px;
+}
+
+.features.btn{
+
+    background-color: #589b37;
+    border: 1px solid #589b37;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.features.btn:hover{
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.page-footer{
+
+    background-color: #222;
+    color: #ccc;
+    padding: 60px 0 30px;
+}
+
+.footer-copyright{
+
+    color: #666;
+    padding: 40px 0;
+}
+
+@media  screen and (max-width: 578.95px){
+    
+    .description{
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 10%;
+        transform: none;
+        text-align: center;
+    }
+
+    .description h1{
+        font-size: 2em;
+    }
+
+    .description p{
+        font-size: 1.2rem;
+    }
+
+    .features{
+        margin: 0;
+    }
+
+    .label{
+
+        padding-left: 10px;
+    }
+    
+    .input{
+    
+        padding-right: 5px;
+        align-self: start;
+    }
+}
+
+.form-group button{
+
+    border: 2px solid #000;
+    
+}
+
+.topic{
+
+    font-size: large;
+    color: #666;
+}
+
+.list{
+
+    color: rgb(12, 15, 180);
+    font-size: medium;
+}
+
+.details{
+
+    font-size: large;
+    font-style: oblique;
+    margin-bottom: 20x;
+}
+
+.bodyclass{
+
+    background-color: rgb(206, 201, 201);
+}
+
+.getintouch{
+
+    text-align: left;
+    border-radius: 10px;
+}
+
+.para{
+
+    color: #000;
+}
+
+#result{
+
+    border: 1px solid black;
+    padding: 2px;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.floatRight{
+
+    float: right;
+    width: 100%;
+}
+
+.obesity{
+
+    margin-left: 0px;
+}
+
+.wrap{
+
+    margin: 0 auto;
+    width: 1140px;
+    font-style: oblique;
+}
+
+.img{
+
+    display: block;
+  margin-left:110px;
+  margin-right: auto;
+  
+}
+
+.h4{
+
+    margin-left: 110px;
+    margin-right: auto;
+}
+
+.input{
+
+    border-radius: 10px;
+    border: #000;
+}
+
+.submit {
+    display:inline-block;
+    color: white;
+    background-color: blue;
+    margin:0;
+    padding: 5px;
+    border: 0;
+    font-weight: bold;
+    width:100%;
+}
+.submit:hover {
+    color: blue;
+    background-color: white;
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+#result {
+    border: 1px solid black;
+    padding: 2px;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    
+}
+
+
